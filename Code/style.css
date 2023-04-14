@@ -15,10 +15,11 @@ h1{
 
 h2{
     margin-right: 356;
-    background-color: #FED979;
-    padding: 15px;
+    background: rgba(255, 189, 90);
+    padding: 20px;
     border-radius: 20px;
 }
+
 
 .main{
     color: black;
@@ -26,19 +27,21 @@ h2{
 
 .navbar{
     width: 86%;
+    margin-left: 250px;
     display:flex;
-    margin: auto;
+    margin-top: 20px;
     padding: 15px 0;
     justify-content: space-between;
 }
 
 .navbar .logo{
     width: 125px;
+    padding: -100px;
     background-color: #FED979;
     cursor: pointer;
     margin-top: 1%;
     margin-left: 2%;
-    border-radius: 110px;
+    border-radius: 100px;
     
 }
 
@@ -72,4 +75,10 @@ ul li a:hover{
     padding-left: 50%;
     align-items: center;
     text-align: justify;
+    background-color: #FED979;
+}
+
+.menu{
+    padding-right: 250px;
+    padding-top: 50px;
 }
