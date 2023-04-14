@@ -6,23 +6,15 @@
     font-family: Inter;
 }
 h1{
-    margin-top: 180;
     font-size: 128px;
-    margin-left: 313;
     font-weight: 400;
-    line-height: 154.91px;
 }
 
 h2{
     margin-right: 356;
-<<<<<<< HEAD
-    background: rgba(255, 189, 90);
-    padding: 20px;
-=======
     /* background-color: #FED979; */
     
     padding: 15px;
->>>>>>> 194c8cfcdbca24d6d7955f55fb6001e3d8f90da5
     border-radius: 20px;
 }
 
@@ -82,23 +74,23 @@ ul li a:hover{
     padding-left: 50%;
     align-items: center;
     text-align: justify;
-<<<<<<< HEAD
-    background-color: #FED979;
-}
-
-.menu{
-    padding-right: 250px;
-    padding-top: 50px;
-=======
     
 }
 .vertical {
-    margin-left: -86px;
-    margin-top: 16px;
-    border-left: 6px solid black;
-    height: 200px;
-    position:absolute;
-    left: 50%;
-    padding-left: 0px;
->>>>>>> 194c8cfcdbca24d6d7955f55fb6001e3d8f90da5
+        margin-left: 80px;
+        margin-top: 40px;
+        border-left: 6px solid black;
+        height: 224px;
+        position: absolute;
+        left: 50%;
+        padding-left: 0px;
+}
+
+td{
+    padding: 30;
+}
+
+span{
+    font-size: 180px;
+    margin: -28px;
 }
