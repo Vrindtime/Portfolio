@@ -1,6 +1,7 @@
 *{
+    position: abolute;
     margin: 0;
-    padding: 10;
+    padding: 5;
     background-color: #F4AF47;
     color: black;
     font-family: Inter;
@@ -24,8 +25,9 @@ h2{
 }
 
 .navbar{
-    width: 86%;
-    margin-left: 250px;
+    width: 75%;
+    height: 10%;
+    margin-left: 200px;
     display:flex;
     margin-top: 20px;
     padding: 15px 0;
@@ -44,14 +46,15 @@ h2{
 }
 
 ul li{
-    display: inline;
+    position: relative;
+    display: inline;  
 }
 
 ul li a{
     width: 615px;
     height: 66px;
     left: 1207px;
-    top: 115px;
+    top: 130px;
     font-size: 22px;
     font-weight: 400;
     text-decoration: none;
@@ -77,8 +80,8 @@ ul li a:hover{
     
 }
 .vertical {
-        margin-left: 80px;
-        margin-top: 40px;
+        margin-left: 100px;
+        margin-top: 50px;
         border-left: 6px solid black;
         height: 224px;
         position: absolute;
@@ -87,7 +90,10 @@ ul li a:hover{
 }
 
 td{
-    padding: 30;
+    padding: 20;
+    font-size: 33px;
+    width: 554;
+    height: 225;
 }
 
 span{
@@ -96,5 +102,27 @@ span{
 }
 
 .content{
-    padding-top: 100px;
+    padding-top: 150px;
+}
+
+hr.line{
+    margin-top: 80px;
+    border: none;
+    border-top: 2px solid black;
+    color:#000000;
+}
+
+.desc{
+    position: relative;
+
+    padding-left: 50px;
+    background-color:#a99f911f;
+    border-left: #000000;
+    border-left-style: solid;
+}
+
+@media (max-width: 300px) {
+    .vertical{
+        color: blue;
+    }
 }
