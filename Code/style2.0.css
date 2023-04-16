@@ -1,0 +1,99 @@
+*{
+    color:black;
+    background-color: #F4AF47;
+    font-family: Inter;
+    padding: 2px;
+}
+/*Profile pic*/
+.pfp{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.logo{
+    border-radius: 100%;
+    width: 10%;
+    margin-right: 10%;
+    background-color: rgb(253, 239, 114, .25);
+}
+
+/*Menu Bar*/
+.menu ul{
+    right: -200%;
+}
+
+.menu li{
+    top: -100;
+    left: 55%;
+    position: relative;
+    display: inline; 
+    margin: 2%;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 26px;
+    background-color: rgb(253, 239, 114, .25);
+    padding: 10px;
+    border-radius: 22px;
+}
+
+.menu a:hover{
+    font-size: 20px; 
+    color: white;
+    background-color: black;
+}
+
+/*Text on Home Page Portfolio*/
+
+span{
+    font-size: 150px;
+    margin: -10px;
+}
+
+.content h1{
+    position: relative;
+    font-size: 100px;
+    margin-left: 25%;
+    margin-top: 18%;
+    font-weight: normal;
+}
+/*Description*/
+.desc p{
+    width: 165%;
+    /*margin-top: 150%;*/
+    font-size: 25px;
+    margin-left: -90%;
+    border-radius: 5px;
+    background-color: rgb(253, 239, 114, .25);
+    padding-left: 12px;
+    border-left-style: dashed;
+}
+
+/*line*/
+hr{
+    margin-top: 10%;
+    border: none;
+    border-top: dashed;
+    border-width: 1px;
+}
+
+/*push part section*/
+h2{
+    text-decoration: underline;
+}
+
+.push{
+    padding: 10%;
+    size: 2em;
+    font-weight: 450;
+    font-size: 26px;
+}
+
+.desc{
+    position: relative;
+    margin-left: 60%;
+    margin-top: -48%;
+}
+
