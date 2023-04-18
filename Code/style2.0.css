@@ -2,33 +2,37 @@
     color:black;
     background-color: #F4AF47;
     font-family: Inter;
-    padding: 2px;
+    padding: 4px;
+
+    justify-content: center;
 }
 /*Profile pic*/
-.pfp{
-    margin-top: 2%;
-    margin-left: 10%;
+.navbar{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+
 }
 
-.logo{
-    border-radius: 100%;
-    width: 10%;
-    margin-right: 10%;
+.pfp img{
+    width: 20%;
+    border-radius: 100px;
     background-color: rgb(253, 239, 114, .25);
+    margin-left: 2%;
 }
 
-/*Menu Bar*/
+.menu{
+    margin-left: 10%;
+    margin-top:3%
+
+}
+
 .menu ul{
-    right: -200%;
+    justify-content: space-between;
 }
 
-.menu li{
-    top: -100;
-    left: 55%;
-    position: relative;
-    display: inline-block; 
-    margin: 2%;
-
+.menu ul li{
+    display: inline-block;
 }
 
 .menu li a{
