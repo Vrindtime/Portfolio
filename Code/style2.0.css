@@ -26,7 +26,7 @@
     top: -100;
     left: 55%;
     position: relative;
-    display: inline; 
+    display: inline-block; 
     margin: 2%;
 
 }
@@ -47,29 +47,40 @@
 
 /*Text on Home Page Portfolio*/
 
-span{
-    font-size: 150px;
-    margin: -10px;
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
 }
 
-.content h1{
-    position: relative;
-    font-size: 100px;
-    margin-left: 25%;
-    margin-top: 18%;
-    font-weight: normal;
+.port{
+    font-size: 54px;
 }
-/*Description*/
+
+.port::first-letter{
+    font-size: 160px;
+    margin: -1.5%;
+}
+
+.desc{
+    width: 545px;
+    height: 20px;
+    margin-top: 2%;
+    justify-content: center;
+    border-radius: 15%;
+}
+
 .desc p{
-    width: 165%;
-    /*margin-top: 150%;*/
-    font-size: 25px;
-    margin-left: -90%;
-    border-radius: 5px;
+    font-size: 35px;
+    flex-direction: column;
+    padding-left: 100px;
+
+    border-left: dashed;
     background-color: rgb(253, 239, 114, .25);
-    padding-left: 12px;
-    border-left-style: dashed;
+    padding: 2%;
+
 }
+
 
 /*line*/
 hr{
@@ -80,20 +91,38 @@ hr{
 }
 
 /*push part section*/
-h2{
-    text-decoration: underline;
-}
-
-.push{
-    padding: 10%;
-    size: 2em;
-    font-weight: 450;
-    font-size: 26px;
-}
-
-.desc{
-    position: relative;
-    margin-left: 60%;
-    margin-top: -48%;
-}
+.push {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    left: 5%;;
+    padding: 5%;
+  }
+  
+  .push_right dl {
+    margin-right: 5%;
+    grid-area: push;
+  }
+  
+  .push_right dl:first-child {
+    margin-top: 0;
+  }
+  
+  .push_right dl:not(:first-child) {
+    margin-top: 3%;
+  }
+  
+  .desc li {
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 2%;
+  }
+  
+  
+  
+  
+  
+  
+  
 
