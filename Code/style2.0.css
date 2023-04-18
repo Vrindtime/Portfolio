@@ -19,6 +19,7 @@
     border-radius: 100px;
     background-color: rgb(253, 239, 114, .25);
     margin-left: 2%;
+    background-attachment: fixed;
 }
 
 .menu{
@@ -41,12 +42,13 @@
     background-color: rgb(253, 239, 114, .25);
     padding: 10px;
     border-radius: 22px;
+    animation: ease 4s;
 }
 
-.menu a:hover{
-    font-size: 20px; 
+.menu a:hover{ 
     color: white;
     background-color: black;
+    box-shadow: 5px 10px 20px darkorange;
 }
 
 /*Text on Home Page Portfolio*/
