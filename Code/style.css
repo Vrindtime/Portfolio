@@ -60,10 +60,10 @@ ul li a{
     font-weight: 400;
     text-decoration: none;
     color: black;
-    margin-top:-1;
-    transition: .2s ease;
+    margin-top:-1; 
     background-color: #FED979;
     border-radius: 20px;
+    transition: .2s ease;
 }
 
 ul li a:hover{
@@ -97,7 +97,6 @@ span{
 
 .desc{
     position: relative;
-
     padding-left: 50px;
     background-color:#a99f911f;
     border-left: #000000;

@@ -1,0 +1,128 @@
+*{
+    color:black;
+    background-color: #F4AF47;
+    font-family: Inter;
+    padding: 2px;
+}
+/*Profile pic*/
+.pfp{
+    margin-top: 2%;
+    margin-left: 10%;
+}
+
+.logo{
+    border-radius: 100%;
+    width: 10%;
+    margin-right: 10%;
+    background-color: rgb(253, 239, 114, .25);
+}
+
+/*Menu Bar*/
+.menu ul{
+    right: -200%;
+}
+
+.menu li{
+    top: -100;
+    left: 55%;
+    position: relative;
+    display: inline-block; 
+    margin: 2%;
+
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 26px;
+    background-color: rgb(253, 239, 114, .25);
+    padding: 10px;
+    border-radius: 22px;
+}
+
+.menu a:hover{
+    font-size: 20px; 
+    color: white;
+    background-color: black;
+}
+
+/*Text on Home Page Portfolio*/
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+}
+
+.port{
+    font-size: 54px;
+}
+
+.port::first-letter{
+    font-size: 160px;
+    margin: -1.5%;
+}
+
+.desc{
+    width: 545px;
+    height: 20px;
+    margin-top: 2%;
+    justify-content: center;
+    border-radius: 15%;
+}
+
+.desc p{
+    font-size: 35px;
+    flex-direction: column;
+    padding-left: 100px;
+
+    border-left: dashed;
+    background-color: rgb(253, 239, 114, .25);
+    padding: 2%;
+
+}
+
+
+/*line*/
+hr{
+    margin-top: 10%;
+    border: none;
+    border-top: dashed;
+    border-width: 1px;
+}
+
+/*push part section*/
+.push {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: flex-start;
+    left: 5%;;
+    padding: 5%;
+  }
+  
+  .push_right dl {
+    margin-right: 5%;
+    grid-area: push;
+  }
+  
+  .push_right dl:first-child {
+    margin-top: 0;
+  }
+  
+  .push_right dl:not(:first-child) {
+    margin-top: 3%;
+  }
+  
+  .desc li {
+    font-size: 20px;
+    list-style: none;
+    margin-bottom: 2%;
+  }
+  
+  
+  
+  
+  
+  
+  
+
