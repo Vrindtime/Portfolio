@@ -20,6 +20,7 @@
     background-color: rgb(253, 239, 114, .25);
     margin-left: -8%;
     background-attachment: fixed;
+    box-shadow: 5px 10px 20px darkorange;
 }
 
 .menu{
@@ -42,6 +43,7 @@
     background-color: rgb(253, 239, 114, .25);
     padding: 10px;
     border-radius: 22px;
+    box-shadow: 2px 2px 5px darkorange;
     animation: ease 4s;
 }
 
@@ -56,16 +58,19 @@
 .content{
     display: flex;
     justify-content: center;
-    padding: 10%;
+    padding: 5%;
 }
 
 .port{
     font-size: 54px;
+    text-shadow: 7px 15px 10px darkorange;
+    
 }
 
-.port:first-letter{
+.port :first-letter{
     font-size: 160px;
     margin: -1.5%;
+
 }
 
 .desc{
@@ -75,13 +80,14 @@
     justify-content: center;
     border-radius: 15%;
     max-height: 20px;
+
 }
 
 .desc p{
     font-size: 35px;
     flex-direction: column;
     padding-left: 100px;
-
+    box-shadow: 8px 20px 20px darkorange;
     border-left: dashed;
     background-color: rgb(253, 239, 114, .25);
     padding: 2%;
@@ -106,23 +112,30 @@ hr{
 
 .push{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10%;    
+    grid-template-areas: 
+    "edu skill"
+    "exp skill";
+    gap: 10px;
+    margin-left: -4%;    
     justify-content: space-around;
     font-size: 26px;
-    gap: 30%;
+    gap: 10%;
 }
   
-.edu{
-
+.edu dl dt dd{
+    grid-area:"edu";
+    justify-content: space-evenly;
 }
   
-.exp{
-
+.exp dd dt dd{
+    grid-area: "exp";
+    justify-content: space-evenly;
 }
   
-.skill{
+.skill li{
+    grid-area: "skill";
     margin-top: 7%;
+    justify-content: space-evenly;
 }
   
   
