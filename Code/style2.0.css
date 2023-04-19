@@ -1,16 +1,18 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.min.css");
+
 *{
     color:black;
     background-color: #F4AF47;
     font-family: Inter;
     padding: 4px;
-
-    justify-content: center;
 }
 /*Profile pic*/
 .navbar{
     display: flex;
     margin-top: 5%;
     margin-left: 5%;
+    justify-content: center;
 
 }
 
@@ -63,7 +65,7 @@
 
 .port{
     font-size: 54px;
-    text-shadow: 7px 15px 10px darkorange;
+    text-shadow: 7px 10px 10px darkorange;
     
 }
 
@@ -87,7 +89,7 @@
     font-size: 35px;
     flex-direction: column;
     padding-left: 100px;
-    box-shadow: 8px 20px 20px darkorange;
+    box-shadow: 8px 10px 20px darkorange;
     border-left: dashed;
     background-color: rgb(253, 239, 114, .25);
     padding: 2%;
@@ -112,31 +114,81 @@ hr{
 
 .push{
     display: grid;
+    justify-self: centre;
+    grid-template-columns: 1fr 1fr;
     grid-template-areas: 
-    "edu skill"
-    "exp skill";
-    gap: 10px;
-    margin-left: -4%;    
-    justify-content: space-around;
+    " edu skill "
+    " exp skill ";
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: start;
     font-size: 26px;
     gap: 10%;
 }
-  
+
+.right{
+    margin-left: 8%;
+}
+
 .edu dl dt dd{
     grid-area:"edu";
-    justify-content: space-evenly;
+
 }
   
 .exp dd dt dd{
     grid-area: "exp";
-    justify-content: space-evenly;
+
 }
   
 .skill li{
     grid-area: "skill";
-    margin-top: 7%;
-    justify-content: space-evenly;
+    margin-right: 5%;
+    margin-top: 4%;
 }
-  
-  
+
+.skill dd{
+    padding: 2%;
+    margin-top:-6%;
+}
+
+
+/*Footer*/
+.foot{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "txt txt"
+    "icon btt";
+}
+
+.d_foot{
+    grid-area: "txt";
+    justify-content: space-between;    
+}
+.d_foot h1{
+    font-size: 100px;
+    font-weight: 500;
+}
+.d_foot dt{
+    font-size: 30px;
+    padding-left: 10%;
+    padding-left: 10%;
+}
+
+/*Icons*/
+
+.icon img{
+    height: 50px;
+    width: 50px;
+    grid-area: "icon";
+}
+.btt img{
+    grid-area: "btt";
+}
+
+
+
+
+
 
