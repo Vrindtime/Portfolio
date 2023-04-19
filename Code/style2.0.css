@@ -168,36 +168,51 @@ hr{
 
 /*Footer*/
 .foot{
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 2fr 1fr;
-    grid-template-areas:
-    " txt txt "
-    " icon btt ";
+    display: flex;
+    flex-direction: flex-start;
+    flex-direction: column;
 }
 
 .d_foot{
-    grid-area: "txt";
-    justify-content: space-between;    
+    
 }
+
 .d_foot h1{
     font-size: 100px;
     font-weight: 500;
 }
+
 .d_foot dt{
     font-size: 30px;
-    padding-left: 10%;
+    margin-left: 10%;
+}
+
+.foot .sub{
+    margin-left: 10%;
 }
 
 /*Icons*/
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ic{
+    margin-left: -30%;
+}
 
 .icon img{
     height: 50px;
     width: 50px;
-    grid-area: "icon";
+    justify-content: center;
 }
 .btt img{
-    grid-area: "btt";
+    margin-left: 90%;
+    content: center;
+}
+.btt p{
+    padding-right: 6%;
+    width: 100px;
 }
 
 
