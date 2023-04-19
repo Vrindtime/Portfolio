@@ -3,10 +3,17 @@
 
 *{
     color:black;
-    background-color: #F4AF47;
     font-family: Inter;
     padding: 3px;
 }
+
+body{
+    background-image: url("/Code/UI/yellowbg.jpeg");
+    max-height: fit-content;
+}
+
+
+
 /*dic class used for spacing*/
 .space{
     padding-bottom:2%;
@@ -33,7 +40,7 @@
 .pfp img{
     width: 20%;
     border-radius: 100px;
-    background-color: rgb(253, 239, 114, .25);
+    background-color: rgb(253, 239, 114, .6);
     margin-left: -8%;
     background-attachment: fixed;
     box-shadow: 5px 10px 20px darkorange;
