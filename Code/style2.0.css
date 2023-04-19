@@ -5,8 +5,22 @@
     color:black;
     background-color: #F4AF47;
     font-family: Inter;
-    padding: 4px;
+    padding: 3px;
 }
+/*dic class used for spacing*/
+.space{
+    padding-bottom:2%;
+}
+
+/*tag used for description , space*/
+.exp .edu dd{
+    padding: 50%;
+}
+
+.dl{
+    padding-top:10%;
+}
+
 /*Profile pic*/
 .navbar{
     display: flex;
@@ -122,12 +136,16 @@ hr{
     gap: 5px;
     justify-content: space-evenly;
     align-items: start;
+    margin-left: 10%;
     font-size: 26px;
-    gap: 10%;
 }
 
 .right{
     margin-left: 8%;
+}
+
+.right dd{
+    padding: 2.3%;
 }
 
 .edu dl dt dd{
@@ -137,7 +155,6 @@ hr{
   
 .exp dd dt dd{
     grid-area: "exp";
-
 }
   
 .skill li{
@@ -146,20 +163,17 @@ hr{
     margin-top: 4%;
 }
 
-.skill dd{
-    padding: 2%;
-    margin-top:-6%;
-}
+
 
 
 /*Footer*/
 .foot{
-    display: grid;
+    display: flex;
     grid-gap: 10px;
     grid-template-columns: 2fr 1fr;
     grid-template-areas:
-    "txt txt"
-    "icon btt";
+    " txt txt "
+    " icon btt ";
 }
 
 .d_foot{
@@ -172,7 +186,6 @@ hr{
 }
 .d_foot dt{
     font-size: 30px;
-    padding-left: 10%;
     padding-left: 10%;
 }
 
