@@ -12,8 +12,6 @@ body{
     max-height: fit-content;
 }
 
-
-
 /*dic class used for spacing*/
 .space{
     padding-bottom:2%;
@@ -24,6 +22,7 @@ body{
     padding: 50%;
 }
 
+/*height from the main desc to the sub desc*/
 .dl{
     padding-top:10%;
 }
@@ -180,10 +179,6 @@ hr{
     flex-direction: column;
 }
 
-.d_foot{
-    
-}
-
 .d_foot h1{
     font-size: 100px;
     font-weight: 500;
@@ -195,33 +190,65 @@ hr{
 }
 
 .foot .sub{
+    margin-bottom: 10px;
     margin-left: 10%;
+}
+
+#subsub{
+    margin-left: 15%;
 }
 
 /*Icons*/
 .icon{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .ic{
-    margin-left: -30%;
+    margin-left: 10%;
+    width: 30%;
+}
+
+.ic img{
+    padding-left: 10%;
 }
 
 .icon img{
     height: 50px;
     width: 50px;
-    justify-content: center;
-}
-.btt img{
-    margin-left: 90%;
-    content: center;
-}
-.btt p{
-    padding-right: 6%;
-    width: 100px;
+    padding:2%;
 }
 
+.btt a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btt p{
+    width: auto;
+    margin: 0%;
+
+}
+
+/*Copy rights footer*/
+
+.cc{
+    background-color: #231900;
+    text-align: center;
+}
+
+.cc{
+    margin-bottom: -1%;
+    margin-left: -1%;
+    margin-right: -1%;
+}
+
+.cc p{
+    padding: -10%;
+    color: white;    
+}
 
 
 
