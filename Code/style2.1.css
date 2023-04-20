@@ -1,0 +1,144 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/inter-ui/3.19.3/inter.min.css");
+
+*{
+    color:black;
+    font-family: Inter;
+    padding: 3px;
+}
+
+body{
+    max-height: fit-content;
+}
+
+/*dic class used for spacing*/
+.space{
+    padding-bottom:2%;
+}
+
+/*line*/
+hr{
+    margin-top: 10%;
+    border: none;
+    border-top: dashed;
+    border-width: 1px;
+}
+
+/*Profile pic*/
+.menu{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    justify-content: center;
+
+}
+
+.pfp img{
+    width: 12%;
+    border-radius: 100px;
+    background-color: rgb(253, 239, 114, .6);
+    margin-left: -8%;
+    background-attachment: fixed;
+    box-shadow: 5px 10px 20px darkorange;
+}
+
+.menu{
+    margin-left: 10%;
+    margin-top:3%
+
+}
+
+.menu ul{
+    justify-content: space-between;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu li a{
+    text-decoration: none;
+    font-size: 26px;
+    background-color: rgb(253, 239, 114, .25);
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: 2px 2px 5px darkorange;
+    animation: ease 4s;
+}
+
+.menu li a:hover{ 
+    color: white;
+    background-color: black;
+    box-shadow: 5px 10px 20px darkorange;
+}
+
+
+/*Text on Page Portfolio*/
+
+.title{
+    position: relative;
+    width: 617px;
+    height: 127px;
+    left: 10%;
+    top: 20%;
+    font-weight: 400;
+    font-size: 128px;
+    text-decoration-line: none;
+}
+
+.content{
+    display: flex;
+    margin-top: -5%;
+}
+.content p{
+    position: relative;
+    width: 812px;
+    height: 481px;
+    top: -5%;
+    left: 15%;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 43px;
+}
+
+h1{
+    font-size: 54px;
+    text-shadow: 10px 10px 20px darkorange;   
+}
+
+h1 span{
+    font-size: 145px;
+    margin: -1%;
+
+}
+
+.spic img{
+    width: 69%;
+    border-radius: 100%;
+    margin-left: 28%;
+    margin-top: -14%;
+    background-color: rgb(253, 239, 114, .2);
+    box-shadow: 8px 10px 20px darkorange;
+}
+
+
+/*Copy rights footer*/
+
+.cc{
+    background-color: #231900;
+    text-align: center;
+}
+
+.cc{
+    margin-bottom: -1%;
+    margin-right: -1%;
+    margin-left: -1%;
+    height: 57px;
+}
+
+.cc p{
+    padding: -10%;
+    color: white;    
+}
+
+
