@@ -7,6 +7,10 @@
     padding: 3px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     max-height: fit-content;
 }
